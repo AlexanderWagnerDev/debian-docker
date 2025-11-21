@@ -39,5 +39,7 @@ jobs:
           platforms: linux/amd64,linux/arm/v5,linux/arm64/v8,linux/riscv64,linux/s390x,linux/arm/v7,linux/ppc64le,linux/386
           push: true
           tags: |
-            alexanderwagnerdev/debian:latest
-            ghcr.io/alexanderwagnerdev/debian:latest
+            alexanderwagnerdev/debian:trixie
+            alexanderwagnerdev/debian:13
+            ghcr.io/alexanderwagnerdev/debian:trixie
+            ghcr.io/alexanderwagnerdev/debian:13
