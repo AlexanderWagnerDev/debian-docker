@@ -1,5 +1,6 @@
 # 🐳 Debian Docker
 
+[![Docker Hub](https://img.shields.io/docker/pulls/alexanderwagnerdev/debian-docker?style=flat-square&logo=docker)](https://hub.docker.com/r/alexanderwagnerdev/debian-docker)
 [![Docker](https://img.shields.io/badge/Docker-Debian-A81D33?style=flat-square&logo=debian)](https://www.docker.com/)
 [![GitHub](https://img.shields.io/github/license/AlexanderWagnerDev/debian-docker?style=flat-square)](https://github.com/AlexanderWagnerDev/debian-docker)
 
@@ -9,12 +10,19 @@ Minimal Debian Docker image with automatic security updates and optimized for pr
 
 ## 🚀 Quick Start
 
+### Docker Hub
+```bash
+docker pull alexanderwagnerdev/debian-docker:latest
+```
+
+### GitHub Container Registry
 ```bash
 docker pull ghcr.io/alexanderwagnerdev/debian-docker:latest
 ```
 
+### Run
 ```bash
-docker run -it ghcr.io/alexanderwagnerdev/debian-docker:latest
+docker run -it alexanderwagnerdev/debian-docker:latest
 ```
 
 ## ✨ Features
@@ -52,9 +60,11 @@ If you prefer to build the Docker image yourself:
 - Cleaned package cache for minimal size
 - Optimized for production use
 
-## 🐳 GitHub Container Registry
+## 🔗 Links
 
-Pre-built images are available on GitHub Container Registry: [ghcr.io/alexanderwagnerdev/debian-docker](https://github.com/AlexanderWagnerDev/debian-docker/pkgs/container/debian-docker)
+- **Docker Hub:** [alexanderwagnerdev/debian-docker](https://hub.docker.com/r/alexanderwagnerdev/debian-docker)
+- **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/debian-docker](https://github.com/AlexanderWagnerDev/debian-docker/pkgs/container/debian-docker)
+- **GitHub Repository:** [AlexanderWagnerDev/debian-docker](https://github.com/AlexanderWagnerDev/debian-docker)
 
 ## 📄 License
 
@@ -70,12 +80,19 @@ Minimales Debian Docker-Image mit automatischen Sicherheitsupdates und optimiert
 
 ## 🚀 Schnellstart
 
+### Docker Hub
+```bash
+docker pull alexanderwagnerdev/debian-docker:latest
+```
+
+### GitHub Container Registry
 ```bash
 docker pull ghcr.io/alexanderwagnerdev/debian-docker:latest
 ```
 
+### Ausführen
 ```bash
-docker run -it ghcr.io/alexanderwagnerdev/debian-docker:latest
+docker run -it alexanderwagnerdev/debian-docker:latest
 ```
 
 ## ✨ Features
@@ -113,9 +130,11 @@ Falls du das Docker-Image selbst erstellen möchtest:
 - Bereinigter Paket-Cache für minimale Größe
 - Optimiert für Produktiv-Einsatz
 
-## 🐳 GitHub Container Registry
+## 🔗 Links
 
-Fertige Images sind auf der GitHub Container Registry verfügbar: [ghcr.io/alexanderwagnerdev/debian-docker](https://github.com/AlexanderWagnerDev/debian-docker/pkgs/container/debian-docker)
+- **Docker Hub:** [alexanderwagnerdev/debian-docker](https://hub.docker.com/r/alexanderwagnerdev/debian-docker)
+- **GitHub Container Registry:** [ghcr.io/alexanderwagnerdev/debian-docker](https://github.com/AlexanderWagnerDev/debian-docker/pkgs/container/debian-docker)
+- **GitHub Repository:** [AlexanderWagnerDev/debian-docker](https://github.com/AlexanderWagnerDev/debian-docker)
 
 ## 📄 Lizenz
 
